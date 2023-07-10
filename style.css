@@ -1,161 +1,203 @@
-body{
-    margin: 0;
-    color: #707070;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
+html {
+	scroll-behavior: smooth;
 }
-header{
-    background-color: #F8F8F8;
-    margin-bottom: 50px;
-    text-align: center;
-    padding: 30px 0;
+
+body {
+	margin: 0;
+	color: #707070;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
 }
-h1, h2{
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    color: #143774;
-    margin-top: 0;
+
+header {
+	background-color: #f8f8f8;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 30px 0;
 }
-footer{
-    background-color: #143774;
-    color: #FFFFFF;
-    font-size: 18px;
-    height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
+
+h1,
+h2 {
+	font-family: "Lora", serif;
+	font-weight: 400;
+	color: #143774;
+	margin-top: 0;
 }
-footer h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #FFFFFF;
+
+footer {
+	background-color: #143774;
+	color: #ffffff;
+	font-size: 18px;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
 }
-footer p{
-    margin-bottom: 0;
+
+footer h2 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
 }
-a{
-    color: #1792D2;
+
+a {
+	color: #1792d2;
 }
-img{
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+
+img {
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
-article{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+
+article {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
-    max-width: 920px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 920px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
-.article-title{
-    font-size: 24px;
+
+.article-title {
+	font-size: 24px;
 }
-.article-continue{
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
+
+.article-continue {
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
 }
-.article-comment{
-    font-size: 14px;
-    font-weight: 400;
-    order: -2;
+
+.article-comment {
+	font-size: 14px;
+	font-weight: 400;
+	order: -2;
 }
-.widget-title{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+
+.widget-title {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
 }
-.posts-title{
-    font-size: 18px;
+
+.posts-title {
+	font-size: 18px;
 }
-.nav-title{
-    margin: 0;
-    font-size: 30px;
+
+.nav-title {
+	margin: 0;
+	font-size: 30px;
 }
-.nav-text{
-    margin: 0;
-    font-size: 12px;
-    color: #1792D2;
+
+.nav-text {
+	margin: 0;
+	font-size: 12px;
+	color: #1792d2;
 }
-nav ul{
-    padding: 0;
+
+nav ul {
+	padding: 0;
 }
-nav li{
-    list-style: none;
-    margin-bottom: 10px;
+
+nav li {
+	list-style: none;
+	margin-bottom: 10px;
 }
-nav a{
-    color: #707070;
-    text-decoration: none;
-    margin-left: 1em;
+
+nav a {
+	color: #707070;
+	text-decoration: none;
+	margin-left: 1em;
 }
-.current-page{
-    border-bottom: #707070 1px solid;
+
+.current-page {
+	border-bottom: #707070 1px solid;
 }
-.article-featured{
-    border-bottom: 1px solid #707070;
-    padding-bottom: 20px;
+
+.article-featured {
+	border-bottom: 1px solid #707070;
+	padding-bottom: 20px;
 }
-.article-featured-image{
-    order: -3;
-    max-height: 300px;
+
+.article-featured-image {
+	order: -3;
+	max-height: 300px;
 }
-.about-me, .recent-posts{
-    border: 20px solid #EBEBEB;
-    padding: 20px;
-    margin-bottom: 30px;
+
+.about-me,
+.recent-posts {
+	border: 20px solid #ebebeb;
+	padding: 20px;
+	margin-bottom: 30px;
 }
-.about-me img, .recent-posts img{
-    max-height: 90px;
+
+.about-me img,
+.recent-posts img {
+	max-height: 90px;
 }
-.posts{
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #707070;
+
+.posts {
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #707070;
 }
-.posts:last-child{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border-bottom: none;
+
+.posts:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
 }
+
+footer .container * {
+	margin: 10px 0 0 0;
+}
+
 @media (min-width: 675px) {
-    .container{
-        flex-direction: row;
-    }
-    nav li{
-        display: inline;
-    }
-    header{
-        text-align: left;
-    }
-    main{
-        width: 70%;
-    }
-    .sidebar{
-        width: 25%;
-    }
-    .other-articles{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .other-articles-body{
-        width: 60%;
-    }
-    .other-articles-side{
-        width: 35%;
-    }
-    .other-articles img{
-        height: 240px;
-    }
+	.container {
+		flex-direction: row;
+	}
+
+	nav li {
+		display: inline;
+	}
+
+	header {
+		text-align: left;
+	}
+
+	main {
+		width: 70%;
+	}
+
+	.sidebar {
+		width: 25%;
+	}
+
+	.other-articles {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.other-articles-body {
+		width: 60%;
+	}
+
+	.other-articles-side {
+		width: 35%;
+	}
+
+	.other-articles img {
+		height: 240px;
+	}
 }
